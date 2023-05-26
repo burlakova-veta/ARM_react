@@ -1,0 +1,52 @@
+.contentM {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../background.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    font-size: 25px;
+    background-color: rgb(209, 152, 255);
+    position: relative;
+    width: 25%;
+    height: 60%;
+}
+
+.photo {
+    padding-top: 6%;
+    position: relative;
+    width: 25%;
+    padding-left: calc(150/2);
+    margin: 0 auto;
+}
+
+.info {
+    text-align: left;
+    padding-left: 5%;
+}
+
+.opt-btn {
+    width: 75%;
+    font-size: 20px;
+    margin: auto;
+    height: 50px;;
+}
+
+.options {
+    background-color: rgb(209, 152, 255);
+    width: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
